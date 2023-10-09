@@ -12,6 +12,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfUse from './components/TermsOfUse';
 import BlogTwo from './components/Blog2';
 import CoursePage from "./components/coursePage";
+import CoursePageWebDev from "./components/courses/webDev/coursePageWebDev";
 // import DSA from "./components/coursePageDSA";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/efkocefo/efvee/re" element={<View/>}/>
         <Route path="/efkvdfvdso/dgrvee/re/dsa" element={<ViewDsa/>}/>
         <Route path="/coursePage/java" element={<CoursePage/>}/>
+        <Route path="/coursePage/webdev" element={<CoursePageWebDev/>}/>
         {/* <Route path="/coursePage/dsa" element={<DSA/>}/> */}
         <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
         <Route path="/termsofuse" element={<TermsOfUse/>}/>
